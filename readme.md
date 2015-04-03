@@ -1,6 +1,6 @@
 #Cloud Files Gallery
 
-###Sample application for uploading and displaying image galleries using Rackspace Cloud Files.
+###A sample application for uploading and displaying image galleries using Rackspace Cloud Files.
 
 I built this simple gallery app as an exercise to become familiar with Rackspace's PHP Open Cloud API and decided to share it in the hopes it may help somebody. This is only meant to be an example; it's not meant to be put into production on your website unless you add some integrity checks and beef up security. I'm sharing this as-is, without warranty of any kind. Use at your own risk. The code is commented and should be easy to follow. Please don't ask for help with this, I'm just way too busy to offer any meaningful support. Thanks. :)
 
@@ -9,7 +9,7 @@ I built this simple gallery app as an exercise to become familiar with Rackspace
 * Resizes and uploads images to containers
 * Recursively deletes image galleries and containers
 * Creates private and public CDN containers with temporary URLs; perfect for membership sites and digital downloads
-* Uses Bootstrap 3 and DropZone (both via CDN)
+* Uses Bootstrap 3.3, jQuery and DropZone (all via CDN)
 
 ##Requirements
 
