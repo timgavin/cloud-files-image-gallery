@@ -6,7 +6,7 @@ I built this simple gallery app as an exercise to become familiar with Rackspace
 
 ##What It Does
 * Creates photo galleries using Rackspace Cloud Files containers and a mySQL database
-* Resizes and uploads images to containers
+* Resizes and uploads images to Cloud Files containers
 * Recursively deletes image galleries and containers
 * Creates private and public CDN containers with temporary URLs; perfect for membership sites and digital downloads
 * Uses Bootstrap 3.3, jQuery and DropZone (all via CDN)
