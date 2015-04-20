@@ -19,11 +19,11 @@ I built this simple gallery app as an exercise to become familiar with Rackspace
 This also uses [ezSQL](https://github.com/ezSQL/ezSQL) for mySQL and [ImageMagick](http://www.imagemagick.org) for image uploads and manipulation, both of which can be easily swapped out for your own. If you're not using ImageMagick, update `assets/php/upload.php` with your own upload code.
 
 ##Installation
-* Download the `.zip` file
-* Create a new mySQL database named `open-cloud` and import the tables in `open-cloud.sql`
-* Install the [php-opencloud](https://github.com/rackspace/php-opencloud) library into `assets/plugins/`
-* Download [ezSQL](https://github.com/ezSQL/ezSQL) into `assets/plugins/` (or use your own)
-* Open `assets/config.php` and edit accordingly
-* Visit `index.php` in your browser to start creating galleries!
+1. Download the `.zip` file
+1. Create a new mySQL database named `open-cloud` and import the tables in `open-cloud.sql`
+1. Install the [php-opencloud](https://github.com/rackspace/php-opencloud) library into `assets/plugins/`
+1. Download [ezSQL](https://github.com/ezSQL/ezSQL) into `assets/plugins/` (or use your own)
+1. Open `assets/config.php` and edit accordingly
+1. Visit `index.php` in your browser to start creating galleries!
 
 If you're using MAMP Pro, check out how to [easily install ImageMagick with MAMP Pro 3](http://timgavin.tumblr.com/post/115425669995/easily-install-imagemagick-with-mamp-pro).
