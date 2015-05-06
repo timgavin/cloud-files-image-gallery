@@ -19,6 +19,9 @@ I built this simple gallery app as an exercise to become familiar with Rackspace
 This also uses [ezSQL](https://github.com/ezSQL/ezSQL) for mySQL and [ImageMagick](http://www.imagemagick.org) for image uploads and manipulation, both of which can be easily swapped out for your own. If you're not using ImageMagick, update `assets/php/upload.php` with your own upload code.
 
 ##Installation
+
+**Update:** [I created this blog post](http://timgavin.name/tuts/uploading-to-rackspace-cloud-files/) that's a little more detailed than the instructions below.
+
 1. Download the `.zip` file
 1. Create a new mySQL database named `open-cloud` and import the tables in `open-cloud.sql`
 1. Install the [php-opencloud](https://github.com/rackspace/php-opencloud) library into `assets/plugins/`
