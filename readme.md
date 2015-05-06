@@ -20,7 +20,7 @@ This also uses [ezSQL](https://github.com/ezSQL/ezSQL) for mySQL and [ImageMagic
 
 ##Installation
 
-**Update:** [I created this blog post](http://timgavin.name/tuts/uploading-to-rackspace-cloud-files/) that's a little more detailed than the instructions below.
+**Update:** [I created this companion blog post](http://timgavin.name/tuts/uploading-to-rackspace-cloud-files/), which is more detailed than the instructions below.
 
 1. Download the `.zip` file
 1. Create a new mySQL database named `open-cloud` and import the tables in `open-cloud.sql`
